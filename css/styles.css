@@ -6,6 +6,7 @@ body {
 
 a {
     text-decoration: none;
+
 }
 
 ul,
@@ -26,8 +27,7 @@ img {
 .container {
     margin: 0 auto;
     padding: 0 15px;
-    width: 1158px;
-    display: flex;
+    max-width: 1158px;
 }
 
 .section {
@@ -84,6 +84,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-item-link:hover,
@@ -145,13 +146,12 @@ padding: 24px 0;
     color: #ffffff;
     background-color: #4d5ae5;
     border: none;
-    display: block;
     min-width: 169px;
     text-align: center;
     border-radius: 4px;
     height: 56px;
     margin: 0 auto;
-    
+     display: block;
 }
 
 .hero-btn:hover,
