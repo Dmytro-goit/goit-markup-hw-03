@@ -63,6 +63,7 @@ img {
 .header-page .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-page {
@@ -196,7 +197,6 @@ img {
 .advantages-list {
     display: flex;
     align-items: center;
-    display: flex;
     gap: 24px;
 }
 
@@ -204,24 +204,23 @@ img {
 width: calc((100%-72px) / 4);
 }
 
-
-.sub-title {
+.advantage-title {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-align: center;
-        margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 
-.sub-text {
+.advantage-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    
 }
+
 /*region-team*/
 
 .section-three {
@@ -256,6 +255,24 @@ width: calc((100%-72px) / 4);
     overflow: hidden;
     width: calc((100-72px) / 4);
     border-radius: 0px 0px 4px 4px;
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.sub-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
 }
 
 .work {
