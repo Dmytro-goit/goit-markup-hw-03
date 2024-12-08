@@ -196,12 +196,11 @@ img {
 
 .advantages-list {
     display: flex;
-    align-items: center;
     gap: 24px;
 }
 
 .advantage {
-width: calc((100%-72px) / 4);
+width: calc((100% - 72px) / 4);
 }
 
 .advantage-title {
