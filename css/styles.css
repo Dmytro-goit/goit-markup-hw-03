@@ -127,7 +127,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: block;
+    display: flex;
 }
 
 .adress-link:hover,
@@ -204,6 +204,7 @@ img {
 width: calc((100%-72px) / 4);
 }
 
+
 .sub-title {
     font-weight: 500;
         font-size: 20px;
@@ -225,7 +226,8 @@ width: calc((100%-72px) / 4);
 
 .section-three {
     background-color: #f4f4fd;
-    padding-bottom: 120px 0;
+    padding-top: 120px ;
+    padding-bottom: 120px;
    
 }
 
