@@ -27,7 +27,7 @@ img {
     margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
-    
+    display: flex;
 }
 
 .section {
@@ -101,12 +101,16 @@ img {
     
 }
 
+.nav-item {
+padding: 24px 0;
+}
+
 .adress-link {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .adress-link:hover,
@@ -129,7 +133,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center; 
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
 }
 
@@ -160,7 +164,7 @@ img {
  padding: 120px 0;
 }
 
-.hidden-title {
+.visually-hidden  {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -170,7 +174,7 @@ img {
     white-space: nowrap;
     clip-path: inset(100%);
     clip:rect(0 0 0 0)
-    overflow  hidden;
+    
 }
 
 .advantages-list {
@@ -182,32 +186,35 @@ img {
 .advantage {
 width: calc((100%-72px) / 4);
 }
+
 .sub-title {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
 .sub-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
 }
 /*region-team*/
 
-.our-team-list {
-    display: flex;
-    justify-content: space-around;
-    gap: 0 24px;
-}
-
 .section-three {
     background-color: #f4f4fd;
-    padding-top: 232px;
-    padding-bottom: 120px;
+    padding-bottom: 120px 0;
+}
+
+.our-team-list {
+    display: flex;
+    
+    gap: 24px;
 }
 
 .section-title {
@@ -227,11 +234,21 @@ width: calc((100%-72px) / 4);
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     overflow: hidden;
-    width: calc((100-48px) / 3);
+    width: calc((100-72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.work {
+    padding: 32px 0;
 }
 /*region-team*/
 /*region-porfolio*/
-.Portfolio {
+.section-portfolio {
+padding-top: 120px ;
+padding-bottom: 120px;
+}
+
+.portfolio {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -249,7 +266,10 @@ width: calc((100%-72px) / 4);
 .portfolio-content {
 padding: 32px 16px;
 text-align: left;
+border: 1px solid #e7e9fc;
+border-top: none;
 }
+
 /*region portfolio*/
 
                                                         /*region-footer */
