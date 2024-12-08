@@ -55,12 +55,14 @@ img {
     border-bottom: 1px solid #e7e9fc;  
 }
 
-
+.header-container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .header-page .container {
     display: flex;
     align-items: center;
-    
 }
 
 .nav-page {
@@ -87,12 +89,12 @@ img {
 
 .nav-list {
     display: flex;
-    margin-right: auto;
+    
     gap: 40px;
 }
 
 .nav-item {
-    
+    padding: 24px 0;
 }
 
 .nav-item-link {
@@ -102,7 +104,6 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
-    display: block;
 }
 
 .nav-item-link:hover,
@@ -120,16 +121,13 @@ img {
     
 }
 
-.nav-item {
-padding: 24px 0;
-}
-
 .adress-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
 }
 
 .adress-link:hover,
